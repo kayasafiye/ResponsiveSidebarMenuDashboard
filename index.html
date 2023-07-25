@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Dashboard Template with Sub Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="UTF-8"></script>
+</head>
+<body>
+    <!-- Wrapper Start -->
+        <div class="wrapper">
+            <!-- header menu start -->
+            <div class="header">
+                <div class="header-menu">
+                    <div class="title">Explore <span>Yourself</span></div>
+                    <div class="sidebar-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-power-off"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- header menu end -->
+
+            <!-- Sidebar Start -->
+            <div class="sidebar">
+                <div class="sidebar-menu">
+                    <center class="profile">
+                        <img src="images/profile-img.jpeg" alt="">
+                        <p>Saliha</p>
+                    </center>
+                    <li class="item">
+                        <a href="#" class="menu-btn">
+                            <i class="fas fa-desktop"></i><span>Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="item" id="profile" >
+                        <a href="#profile" class="menu-btn">
+                            <i class="fas fa-user-circle"></i><span>Profil
+                            <i class="fas fa-chevron-down drop-down"></i></span>
+                        </a>
+                        <div class="sub-menu">
+                            <a href="#"><i class="fas fa-image"></i><span>Fotoğraf</span></a>
+                            <a href="#"><i class="fas fa-address-card"></i><span>Bilgi</span></a>
+                        </div>
+
+                    </li>
+
+                    <li class="item" id="messages" >
+                        <a href="#messages" class="menu-btn">
+                            <i class="fas fa-envelope"></i><span>Mesajlar
+                            <i class="fas fa-chevron-down drop-down"></i></span>
+                        </a>
+                        <div class="sub-menu">
+                            <a href="#"><i class="fas fa-image"></i><span>Yeni</span></a>
+                            <a href="#"><i class="fas fa-address-card"></i><span>Gönder</span></a>
+                            <a href="#"><i class="fas fa-image"></i><span>Spam</span></a>
+                            
+                        </div>
+
+                    </li>
+
+                    <li class="item" id="settings" >
+                        <a href="#settings" class="menu-btn">
+                            <i class="fas fa-cog"></i><span>Ayarlar
+                            <i class="fas fa-chevron-down drop-down"></i></span>
+                        </a>
+                        <div class="sub-menu">
+                            <a href="#"><i class="fas fa-lock"></i><span>Şifre</span></a>
+                            <a href="#"><i class="fas fa-language"></i><span>Dil</span></a>   
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="menu-btn">
+                            <i class="fas fa-info-circle"></i><span>Hakkında</span>
+                        </a>
+                    </li>
+                    
+                </div>
+            </div>
+            <!-- Sidebar End -->
+
+            <!-- Main Container Start -->
+            <div class="main-container">
+
+            </div>
+            <!-- Main Container End -->
+        </div>
+    <!-- Wrapper End -->
+
+</body>
+</html>
